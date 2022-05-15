@@ -1,0 +1,25 @@
+{
+  "name": "@websysarch/prettier-config",
+  "version": "0.0.0",
+  "description": "Opinionated Prettier config",
+  "main": "index.json",
+  "scripts": {
+    "check": "prettier --check \"**/*.*\" --ignore-unknown",
+    "fix": "prettier --write \"**/*.*\" --ignore-unknown"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/websysarch/prettier-config.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/websysarch/prettier-config/issues"
+  },
+  "homepage": "https://github.com/websysarch/prettier-config#readme",
+  "prettier": "./index.json",
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  }
+}
